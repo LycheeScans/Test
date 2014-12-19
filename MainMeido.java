@@ -21,8 +21,7 @@ public class MainMeido {
 			PircBotX bot = new PircBotX(config);
 			//Connect to the freenode IRC network
 			bot.startBot();
-		} //In your code you should catch and handle each exception seperately,
-		//but here we just lump them all togeather for simpliciy
+		} //catch and handle exception
 		catch (Exception ex) {
 			ex.printStackTrace();
 		}
